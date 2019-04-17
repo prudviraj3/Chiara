@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chiara Fitness</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+    .online_t,
+    .personal_t {
+        position: relative;
+    }
+
+    .online_btn_section {
+        position: absolute;
+        top: 0;
+        margin: 34% 28%;
+    }
+
+    .online_btn {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 13px 58px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .p_5 {
+        padding: 5vh 0;
+    }
+
+    .playstore_section {
+        background-image: url(images/playstore.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .playstore_section {
+        background-image: url(images/playstore.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        /* margin: 0; */
+        height: 60vh;
+        background-position-y: -52vh;
+    }
+
+    .playstore {
+        width: 100%;
+        color: #fff;
+    }
+
+    .plystre_btn ul {
+        list-style-type: none;
+
+    }
+
+    .plystre_btn ul li {
+        display: inline-block;
+        margin: 12px 15px;
+        color: #fff;
+    }
+
+    .a_ply {
+        display: flex;
+        align-items: center;
+        color: #fff !important;
+        background-color: #000;
+        padding: 4px 6px;
+        border: 1px solid #fff;
+        border-radius: 12px;
+    }
+
+    .a_ply p,
+    .a_ply h3,.i_ply p,.i_ply h3  {
+        margin: 0;
+
+    }
+    .a_ply p,.i_ply p{
+        text-align: left;
+    }
+    
+    .i_ply{
+       display: flex;
+        align-items: center;
+        color: #fff !important;
+        background-color: #2e2e2f;
+        padding: 4px 6px;
+        border: 1px solid #fff;
+        border-radius: 12px; 
+    }
+    .plystre_btn ul li a{
+        text-decoration: none;
+    }
+    .a_ply>img,.i_ply>img{
+        padding-right: 8px;
+    }
+
+    
+/*    media qurey */
+    @media screen and (max-width:767px){
+        .online_btn {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 2px 6px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+        .playstore_section{
+            background-position-y:0
+        }
+    }
+    
+/*    media qurey */
+    
+</style>
+
+<body>
+    <div class="hero_section1">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="Capture.png" alt="New York" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>lorem ipsum</h3>
+                        <p>lorem ipsumlorem ipsum.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="Capture.png" alt="Chicago" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>lorem ipsum</h3>
+                        <p>Tlorem ipsum.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="Capture.png" alt="Los Angeles" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>lorem ipsum</h3>
+                        <p>lorem ipsum.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid traning">
+        <div class="row p_5">
+            <div class="col-md-6 online_t">
+                <div>
+                    <img src="Capture1.PNG" style="width: 100%">
+                </div>
+                <div class="online_btn_section">
+                    <a href="" class="btn online_btn">Online traning</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 personal_t">
+                <div>
+                    <img src="Capture1.PNG" style="width: 100%">
+                </div>
+                <div class="online_btn_section">
+                    <a href="" class="btn online_btn">Online traning</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="playstore_section">
+            <div class="playstore">
+                <p>Download the Chaira Fitness App for tailored workout plans, nutrition, tips on active lifestyle. Positive living and more</p>
+                <div class="plystre_btn">
+                    <ul>
+                        <li><a href="">
+                                <div class="a_ply">
+                                    <img src="google-play.png" alt="logo">
+                                    <div>
+                                        <p>GET IT ON</p>
+                                        <h3>Google Play</h3>
+                                    </div>
+                                </div>
+
+                            </a></li>
+                        <li><a href=""><div class="i_ply">
+                                    <img src="apple.png" alt="logo">
+                                    <div>
+                                        <p>Available on the</p>
+                                        <h3>App Store</h3>
+                                    </div>
+                                </div></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
