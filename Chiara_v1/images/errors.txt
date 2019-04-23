@@ -1,0 +1,4 @@
+[2019-4-23 09:45:40] layer "+971 521723300": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-4-23 09:45:40] layer "+971 521723300 copy": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-4-23 09:45:41] layer "+971 521723300 copy 2": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-4-23 09:45:41] layer "+971 521723300 copy 3": Expected Either a default asset specification or a layer asset specification but "+" found.
